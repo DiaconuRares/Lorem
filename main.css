@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     padding: 25px;
     height: auto;
+    overflow: auto;
     flex: 5;
 }
 
