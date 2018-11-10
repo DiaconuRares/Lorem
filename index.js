@@ -1,6 +1,7 @@
 $(document).ready(function() {
     
     $(".cont").hide();
+    $(".cover").show();
     
     $(".header>.link0").click(function() {
         $(".cont").hide();
