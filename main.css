@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header {
+    flex: 1 3vw auto;
+    background-color: #E0E0E0;
+    position: sticky;
+    flex-direction: row;
+    display: flex;
+    top: 0;
+}
+
+.cover {
+    background-image: url(http://weandthecolor.com/wp-content/uploads/2013/07/Black-and-White-Mixed-Media-Artwork-by-Silvia-Grav-3252462.jpg);
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: auto;
+    flex: 5;
+}
+
+.cover>h1, .cover>h2 {
+    width: 50%;
+}
+
+.cover>h1, .cover>h2:hover {
+    cursor: default;
+}
+
+.cover>h2 {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 2.5vw;
+    text-align: justify;
+    padding-top: 9vw;
+}
+
+.cover>h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5vw;
+    justify-content: center;
+    align-self: left;
+    text-align: left;
+}
+
+.header>.logo {
+    margin: 0;
+    padding: 0;
+    flex: 4;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 6vw;
+}
+
+.header>.logo {
+    cursor: default;
+}
+
+.header>.link {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2vw;
+    transition: 0.5s;
+}
+
+.header>.link:hover {
+    color: darkorange;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container0 {
+    flex: 4;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    padding: 3vw;
+    font-size: 3.5vw;
+}
+
+.container0>h4 {
+    font-family: monospace;
+    font-size: 2vw
+}
+
+.container1 {
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 3vw;
+}
+
+:root {
+    --ph-hw: 350px;
+}
+
+.container1>.photo {
+    width: var(--ph-hw);
+    height: var(--ph-hw);
+    padding: 0.5vw;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+}
+
+.container1>.photo>img {
+   height: 100%;
+   width: 100%;
+   border-radius: 15px;    
+}
